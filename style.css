@@ -1,0 +1,108 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+
+}
+header{
+    width: 100%;
+    max-height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    background-color: #05526A;
+    
+}
+header div{
+    
+    height: 70px;
+    line-height: 35px;
+}
+ul li{
+    list-style: none;
+    display: inline;
+    padding: 15px;
+    background-color:#4A8091 ;
+    border-radius: 5px;
+    margin-right: 10px;
+    
+}
+.topo-dir ul li:last-child{
+    margin-right: 20px;
+}
+.topo-esq{
+    flex: 1;
+    margin-left: 20px;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.topo-dir{
+    flex: 3;
+    text-align: right;
+}
+.topo-main{
+    flex: 3;
+}
+main{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+section{
+    max-width: 1400px;
+    
+}
+.notice{
+    display: flex;
+    flex-direction: row;
+
+}
+.notice-text{
+    flex: 1;
+    
+}
+.notice-images{
+    flex:1;
+    display: flex;
+    flex-direction: row;
+
+}
+.image1{
+    width: 320px;
+    height: 320px;
+    background-color: #CED4D6;
+    margin: 0px 10px 0px 10px;
+}
+.argument{
+    width: 320px;
+    height: 320px;
+    margin: 0px 10px 0px 10px;
+    background-color: #CED4D6;
+    text-align: center;
+    
+
+}
+.argument p{
+    width: 80%;
+    height: 50px;
+    background-color: #ECECEC;
+}
+button{
+    width: 150px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+
+.btn-readmore{
+    background-color: #ced4d6;
+    
+}
+.btn-acess{
+    background-color: #05526A;
+    color: white;
+}
